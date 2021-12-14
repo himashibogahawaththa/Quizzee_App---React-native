@@ -5,20 +5,23 @@ import { TouchableOpacity,StyleSheet, Button, Text, View , Pressable , Image} fr
 // import { Ionicons } from '@expo/vector-icons';
 
 
-const HomeScreen = ({navigation}) => {
+const BeginScreen = ({navigation}) => {
     return (
-      <View style={styles.container}> 
-        <Text style={{ color: '#fff', fontSize: 64 , fontFamily: 'Roboto'}}>Qui
-        <Text style={{ color: '#07D0F4'}}>zz
-            <Text style={{ color: '#fff' }}>ee
+      <View style={styles.container}>
+        <View style={{marginTop:50}}>
+          <Text style={{ color: '#fff', fontSize: 64 , fontFamily: 'Roboto'}}>Qui
+            <Text style={{ color: '#07D0F4'}}>zz
+              <Text style={{ color: '#fff' }}>ee
+              </Text>
             </Text>
-        </Text>
-        <Text style={{ color: '#fff'}}> Qui
-        <Text style={{ color: '#07D0F4' }}>z
-        </Text>
-        </Text></Text>
+            <Text style={{ color: '#fff'}}> Qui
+            <Text style={{ color: '#07D0F4' }}>z
+            </Text>
+            </Text>
+          </Text>
+        </View>
 
-        <Text style={{ color: '#fff', fontSize: 24 , fontFamily: 'Roboto', width:250, height:100}}>Quick Quiz Knowledge Booster For A Perfect Level Up</Text>
+        <Text style={{ color: '#fff', fontSize: 23 , fontFamily: 'Roboto', width:250, height:100}}>Quick Quiz Knowledge Booster For A Perfect Level Up</Text>
 
         <View style={{flexDirection: 'row', alignItems: 'center'}}>
         <View style={{ height: 1, backgroundColor: '#fff' , width: 250}}></View>
@@ -44,7 +47,7 @@ const HomeScreen = ({navigation}) => {
     );
   };
 
-  export default HomeScreen;
+  export default BeginScreen;
 
 const styles = StyleSheet.create({
   container: {
